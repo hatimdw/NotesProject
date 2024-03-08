@@ -1,0 +1,18 @@
+notes table with id body and user_id
+users table with id name email
+
+
+route : array with key and value then check page uri if array_key_exists
+
+
+
+the notes elements need to direct to another page 
+
+
+foreach ($notes as ^$note) : ?>
+
+a href="/note?id=<?= $note['id'] ?>"
+
+
+add a note route direct to a note 
+
