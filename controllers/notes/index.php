@@ -4,7 +4,7 @@ $pageName = 'My Notes Page';
 $dbConfig = require base_path('config.php');
 $d = new db($dbConfig['database']);
 //$title = $_GET['title'];
-$query = 'select * from notes where user_id = 1';
+$query = 'select * from notes';
 
 $notes = $d->query($query)->all();
  // query strings on the link
