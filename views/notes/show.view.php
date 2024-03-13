@@ -11,12 +11,8 @@
           <h2>
             <?= htmlspecialchars($note['body']) ?>
           </h2>
-      </ol>
-      <form action="" method="POST">
-        <input type="hidden" name="_method" value="DELETE">
-      <input type="hidden" name="notesId" value="<?= $note['notesId'] ?>">
-        <button>delete</button>
-      </form>
+      </ol><BR></BR>
+      <a href="/note/edit?notesId=<?= $note['notesId'] ?>">EDIT</a>
     </div>
 </main>
 

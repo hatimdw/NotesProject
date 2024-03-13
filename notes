@@ -15,4 +15,8 @@ a href="/note?id=<?= $note['id'] ?>"
 
 
 add a note route direct to a note 
+///////
+service container
+
+to update a note we need a note we need to fetch a note
 
